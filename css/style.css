@@ -1,0 +1,574 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #FBFBFB;
+}
+.burguer{
+    color: white; 
+    font-weight: 700;
+}
+.p-relative{
+    position: relative;
+}
+.expand{
+    position: absolute;
+    bottom: 12px;
+    right: 7px;
+    width: 1.5rem;
+}
+.play{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.menu-c{
+    display: flex;
+    width: 25%;
+    min-height: 100vh;
+    position: fixed;
+    left: 0rem;
+    top: 0;
+    background-color: #016FFF;
+    color: white;
+}
+.overlay-menu{
+    display: flex;
+    opacity: 0.5;
+    background-color: black;
+    width: 75%;
+    min-height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.list-style-none{
+    list-style: none;
+}
+.a-menu-c{
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-nav-e{
+    width: 130px;
+    z-index: 999;
+}
+.logo-black{
+    display: none;
+}
+.logo-white{
+    display: flex;
+}
+.w-95{
+    width: 95% !important;
+}
+.fw-400{
+    font-weight: 400;
+}
+nav div button, nav div button:active{
+    border: none;
+}
+header{
+    position: fixed;
+    z-index: 5;
+}
+#section-1, #productos, #seccion, #avances-de-obra, #contacto{
+    min-height: 100vh;
+}
+#section-2{
+    min-height: 90vh;
+}
+#section-3{
+    min-height: 35vh;
+}
+#section-1{
+    background-image: url('../img/bg/landing-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    contain: content;
+}
+.bgc-blue{
+    background-color: #016FFF;
+}
+.bgc-white{
+    background-color: white;
+}
+.btn-e{
+    width: max-content;
+}
+.btn-e a p{
+    font-weight: 600;
+}
+.mb-md-1-3{
+    margin-bottom:3rem !important;
+}
+.shadow-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    min-height: 100vh;
+    z-index: 2;
+}
+.t-s1{
+    z-index: 3;
+    color: white;
+    height: auto;
+    margin-top: 20%;
+}
+.down-arrow{
+    border-radius: 100px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 2px solid white;
+    transition: .5s;
+}
+.down-arrow:hover{
+    background-color: white;
+    transform: scale(1.25);
+}
+.down-arrow:hover a svg g line, .down-arrow:hover a svg g path{
+    stroke: #111 !important;
+}
+.down-arrow a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#carouselExampleIndicators .carousel-indicators button{
+    border-radius: 100% !important;
+    width: 7px;
+    height: 7px;
+    background-color: grey;
+}
+#carouselExampleIndicators .carousel-indicators .active{
+    background-color: black;
+}
+
+.p-s2{
+    width: 95%;
+}
+.accordion {
+    background-color: #FFF;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #FFF; 
+}
+.acc-s4 {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+#seccion{
+    background-image: url('../img/bg/hermoso-lago-verano-reflejo-arboles-superficie-agua-hermoso-parque-ciudad-kiev.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-s6{
+    background-color: #FF9100;
+}
+.text-s6{
+    background-color: white;
+}
+#ubicacion{
+    height: auto;
+    width: 100vw;
+}
+#ubicacion .mapa-mini{
+    width: 100%;
+}
+#section-3 h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.title-s1{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.text-p-s1{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.p-blue{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.title-blue{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #016FFF;
+    letter-spacing: 3px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.card-1{
+    background-color: #FF9100;
+}
+.card-2{
+    background-color: #FF3C00;
+}
+.card-3{
+    background-color: #9000FF;
+}
+.st-s4{
+    width: 25%;
+}
+#beneficios{
+    background-color: #9000FF;
+    color: white;
+}
+#beneficios .row{
+    min-height: 8rem;
+}
+.card-6{
+    background-color: #9B1AFF;
+    height: 100%;
+    font-size: 21px;
+    font-weight: 400;
+    max-width: 60%;
+}
+.card-s6{
+    width: 45%;
+}
+.title-s8{
+    color: #9000FF;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.p-s8{
+    color: #9000FF;
+}
+.submit{
+    background-color: #016FFF;
+    border-radius: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.submit:hover{
+    background-color: #FF3C00;
+}
+input, textarea{
+    border:0px;
+    background-color: #E8EDF9;
+    color: black;
+    font-size: bold;
+    font-weight: bold;
+    line-height: 3rem;
+}
+textarea{
+    height: 6rem;
+}
+.mail{
+     width: 46%;
+     margin-left: auto;
+     line-height: 3rem;
+}
+.contact-header{
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+.contact-header:hover{
+    border: 1px solid black !important;
+    color: black !important;
+    background-color: white !important;
+}
+.contact-header-2:hover{
+    border: 1px solid white !important;
+    color: white !important;
+    background-color: black !important;
+}
+.btn-nav, .btn-nav:active {
+    border: 0px;
+}
+.plus{
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+}
+.uni-hover-1:hover{
+    color:#FF9100;
+}
+.uni-hover-1:hover > span{ 
+    color:#FF9100;
+}
+.uni-hover-2:hover{
+    color:#FF3C00;
+}
+.uni-hover-2:hover > span{ 
+    color:#FF3C00;
+}
+.uni-hover-3:hover{
+    color:#9000FF;
+}
+.uni-hover-3:hover > span{ 
+    color:#9000FF;
+}
+.h3-c{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.p-footer{
+    font-size: 12px;
+}
+.h2-5{
+    font-weight: 700;
+}
+.h2-6{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+footer .footer-logo{
+    height: 9rem;
+}
+.p-salto{
+    font-weight: 500;
+    color: #001D42;
+}
+.modal-dialog{
+    width: 90vw;
+}
+.btn-close-e{
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    display: flex;
+    align-self: center;
+    font-size: 24px;
+}
+.modal-content{
+    width: 90vw;
+    left: 4rem;
+    position: fixed;
+}
+.modal-arrow-w{
+    width: 6rem;
+}
+.modal-header, .modal-footer{
+    border:0;
+}
+#modal-1 .modal-header{
+    background-color: #FF9100;
+    color: #FFF;
+}
+#modal-2 .modal-header{
+    background-color: #FF3C00;
+    color: #FFF;
+}
+#modal-3 .modal-header{
+    background-color: #9000FF;
+    color: #FFF;
+}
+.modal-header div h5{
+    font-size: 24px;
+    line-height: 24px !important;
+}
+.modal-header div p{
+    font-size: 18px;
+}
+#modal-1 .download-btn{
+    border-radius: 0;
+    background-color: #FF9100;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+#modal-2 .download-btn{
+    border-radius: 0;
+    background-color: #FF3C00;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+#modal-3 .download-btn{
+    border-radius: 0;
+    background-color: #9000FF;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+.download-btn:hover{
+    color: #FFF;
+}
+.from-btn-modal{
+    border: 2px solid #016FFF;
+    color: #016FFF;
+    border-radius: 0;
+    font-weight: bold;           
+}
+.modal td{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.header-ad{
+    background-color: #9000FF;
+    color: #FFF;
+}
+.p-e-2{
+    padding: 1.5rem;
+}
+
+.mobile{
+    display: none;
+}
+.desk{
+    display: block;
+}
+.p-abs-rel{
+    position: relative;
+}
+
+.play{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.container {
+display: inline-block;
+cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+width: 20px;
+height: 4px;
+margin: 2px 0;
+transition: 0.2s;
+}
+
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+transform: rotate(-45deg) translate(-9px, 1px);
+background-color: white !important;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, 1px);
+background-color: white !important;
+}
+
+.change .burguer{
+    color: white !important;
+}
+.burguer2{
+    background-color: white;
+}
+
+.form__sending {
+    display: none;
+}
+#msgSubmit {
+    display: none;
+}
+#msgError {
+    display: none;
+    padding: 10px;
+    color: #dc3c3c;
+    font-size: 14px;
+}
+.thumb{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* FIXED */
+@media (max-width:768px) {
+    .h5-mobile-21{
+        font-size: 20px !important;
+    }
+    header{
+        height: 5.5rem!important;
+    }
+    .p-abs-rel{
+        position: absolute;
+    }
+    .card-s6{
+        width: 100%;
+    }
+    #section-2{
+        min-height: auto;
+    }
+    #salto{
+        background-size: contain;
+    }
+    .card-s6{
+        margin-top: 8rem !important;
+    }
+    .mail{
+        width: 100%;
+    }
+    .mb-md-1-3{
+        margin-bottom:1rem !important;
+    }
+     #section-1{
+        background-image: url('../img/bg/landing-hero.jpg'); /* If we want a mobile version background */
+    } 
+    #seccion{
+        background-image: url('../img/bg/hermoso-lago-verano-reflejo-arboles-superficie-agua-hermoso-parque-ciudad-kiev.jpg');/* If we want a mobile version background */    
+    }
+    .card-6{
+        max-width: 100%;
+        width: 100%;
+    }
+    .logo-header{
+        width: 50%;
+    }
+    .st-s4{
+        width: 100%;
+    }
+    .overlay-menu{
+        display: none;
+    }
+    .menu-c{
+        width: 100%;
+    }
+    .logo-header{
+        width: 70%;
+    }
+    .title-s1{
+        font-size: 30px;
+        line-height: 34px;
+        margin-top: 10rem;
+    }
+    .text-p-s1{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .modal-content{
+        width: 100vw;
+        left: 0;
+    }
+    .btn-close-e{
+        display: flex;
+        align-self: start;
+    }
+    .btn-close-e img{
+        width: 24px;
+    }
+    .modal-arrow-w{
+        width: 3rem;
+    }
+    .mobile{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+    /* FIXED ERRORS */
+}

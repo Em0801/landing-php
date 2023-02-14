@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Icon_X" data-name="Icon X" transform="translate(0.189 0.189)">
+    <g id="Area" transform="translate(-0.189 -0.189)" fill="#fcfcfc" stroke="#fffcfc" stroke-width="1" opacity="0">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <g id="Grupo_293" data-name="Grupo 293" transform="translate(6.811)">
+      <g id="Icon" transform="translate(11.227 6.733)">
+        <path id="Path" d="M16,25.333,6.667,16,16,6.667" transform="translate(-9.226 -6.589)" fill="none" stroke="#fffcfc" stroke-width="3"/>
+      </g>
+      <g id="Icon-2" data-name="Icon" transform="translate(-7.773 6.733)">
+        <path id="Path-2" data-name="Path" d="M16,6.667,25.333,16,16,25.333" transform="translate(-9.226 -6.589)" fill="none" stroke="#fffcfc" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
